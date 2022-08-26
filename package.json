@@ -1,0 +1,24 @@
+{
+  "name": "flashcard-app",
+  "version": "1.0.0",
+  "description": "A flashcard app for studying",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abutler911/flashcard-app.git"
+  },
+  "author": "Andrew Butler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abutler911/flashcard-app/issues"
+  },
+  "homepage": "https://github.com/abutler911/flashcard-app#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
