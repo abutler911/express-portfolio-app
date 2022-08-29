@@ -4,7 +4,8 @@ body {
     box-sizing: border-box;
     height: 100vh;
     font-family: 'Montserrat', sans-serif;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.unsplash.com/photo-1570710891163-6d3b5c47248b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../imgs/trees.jpg");
+    /* url("https://images.unsplash.com/photo-1570710891163-6d3b5c47248b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"); */
     background-size: cover;
     background-position: center;
 }
@@ -14,7 +15,7 @@ body {
     /* background-color: rgba(116, 168, 146, 0.5); */
     height: 20vh;
     text-align: center;
-    margin-top: 30vh;
+    margin-top: 5vh;
 }
 
 .jumbotron h1 {
@@ -33,4 +34,28 @@ footer {
     text-align: center;
     font-size: 1rem;
     color: gray;
+}
+
+#profile-picture {
+    height: 300px;
+    width: 250px;
+    display: flex;
+    border-radius: 50%;
+    margin: 0 auto;
+    opacity: 0.9;
+    border: 3px solid white;
+    margin-top: 2vh;
+
+}
+
+.card {
+    margin: 10px;
+    background-color: rgba(128, 128, 128, 0.5);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.card .btn {
+    width: 100%;
 }
