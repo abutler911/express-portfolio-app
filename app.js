@@ -21,6 +21,16 @@ app.get("/about", (req, res) => {
   res.send("THE ABOUT PAGE!!");
 });
 
+app.get("/contact", (req, res) => {
+  res.render("contact");
+});
+
+app.post("/contact", (req, res) => {
+  res.send("Server received the email data...");
+});
+
 app.listen(port, () => {
   console.log(`App listening on port ${port}...`);
 });
+
+

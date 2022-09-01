@@ -1,21 +1,17 @@
 <%- include("partials/header.ejs") %>
 
-<div class="container">
-  <div class="row">
-    <div class="col-md-4">
-      <img src="./imgs/profile.jpg" id="profile-picture" alt="" />
-    </div>
-    <div class="col-md-4">
-      <div class="jumbotron">
-        <h1>Andrew F. Butler</h1>
-        <p>
-          Thanks for stopping by. Please check out some of my projects and feel
-          free to contact me if you have any questions.
-        </p>
-        <Button class="btn btn-success">About Me</Button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<%- include("partials/footer.ejs") %>
+<header id="showcase">
+  <img src="./imgs/profile.jpg" alt="" />
+  <h1 class="text-center">
+    Hello, <br />
+    My Name is Andrew.
+  </h1>
+  <p>
+    I am working for Skywest Airlines as a first officer and in my free time I
+    like to dabble around and create projects. <br />
+    Thanks for stopping by. <br />Please feel free to look around and contact me
+    with any questions.
+  </p>
+  <a href="#" class="button mb-5">Download CV</a>
+  <%- include("partials/footer.ejs") %>
+</header>
